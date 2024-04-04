@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jelovnik</string>
+    <string name="login_text">Jelovnik aplikacija za studente RAF-a</string>
+    <string name="unesi_ime">Unesi ime</string>
+    <string name="prijava">Prijava</string>
+    <string name="unesi_pin">Unesi pin</string>
+    <string name="prijava_uspela">Prijava uspela</string>
+    <string name="pin_pogresan">Pogresan pin !</string>
+    <string name="pin_duzina">Duzina pina mora biti 4 broja !</string>
+    <string name="prijava_nije_uspela">Prijava nije uspela !</string>
+    <string name="pin_prazan">Morate uneti pin kod !</string>>
+</resources>

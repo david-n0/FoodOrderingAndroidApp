@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "rs.raf.projekat2.david_nikolic_9419"

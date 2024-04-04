@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/prvaBoja"
+    tools:context=".ui.activities.LoginActivity">
+
+    <TextView
+        android:id="@+id/textTv"
+        android:layout_width="221dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="@string/login_text"
+        android:textColor="@color/cetvrtaBoja"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/imeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:ems="13"
+        android:hint="@string/unesi_ime"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTv" />
+
+    <EditText
+        android:id="@+id/pinTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="4"
+        android:hint="@string/unesi_pin"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imeTv" />
+
+    <Button
+        android:id="@+id/prijavaBtn"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@color/petaBoja"
+        android:text="@string/prijava"
+        android:textColor="@color/prvaBoja"
+        app:backgroundTint="@color/petaBoja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imeTv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
